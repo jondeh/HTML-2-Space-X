@@ -1,0 +1,151 @@
+body {
+    width: 100%;
+    height: 183vh;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    
+}
+
+main {
+    height: 735px;
+    width: 100%;
+    background-image: url(../starlink3.jpg); 
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    
+    
+}
+        
+
+footer.main {
+    display: block;
+    height: 158px;
+    width: 100%;
+    background-color: #21272b;
+    box-sizing: border-box;
+    opacity: 0.85;
+    
+    
+        
+}
+
+
+div.footer1 {
+    color: white;
+    background-color: #21272b;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div.footer2 {
+    color: white;
+    background-color: #21272b;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    
+    
+}
+
+div.footie {
+    background-color: #21272b;
+    width: 330px;
+    border-right: 1px solid black;
+    border-left: 1px solid rgb(66, 65, 65);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    
+}
+
+div.starlink {
+    background-color: #21272b;
+    height: 58px;
+    width: 320px;
+    margin: 0px 425px 0px;
+    font-size: 30px;
+    font-style: bold;
+    margin-top: 12px;
+    
+    
+}
+
+button {
+    background-color: white;
+    color: #21272b;
+    height: 36px;
+    width: 180px;
+    margin: 0px 470px 0px 0px;
+    border-radius: 2px;
+    font-size: 11px;
+    border: 0px solid black;
+}
+        
+
+header {
+    background-color: black;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+
+nav.one{
+    color: #a8a8a8;
+    background-color: black;
+    height: 60px;
+    width: 580px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px 0px 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+div.logo {
+    height: 22px;
+    width: 173px;
+    background: url(../spacex_logo_white.png);
+    margin: 0px 0px 10px 30px;
+}
+
+div.menu {
+    margin: 0px 4px 0px 0px;
+    color: #e0e0e0;
+}
+
+nav.two{
+    background-color: black;
+    height: 60px;
+    width: 330px;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 40px;
+    font-size: 12px;
+}
+
